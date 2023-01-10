@@ -35,18 +35,17 @@ class Book {
 class ShowBooks extends Book {
   displayBook(book) {
     const bookCard = document.createElement('div');
-    bookCard.style.borderBottom = '1px solid #000';
+    bookCard.classList.add('book-card');
 
     const pTitle = document.createElement('p');
-    pTitle.textContent = book.title;
+    pTitle.textContent = `"${book.title}" by ${book.author}`;
 
-    const pAuthor = document.createElement('p');
-    pAuthor.textContent = book.author;
 
-    const removeBtn = document.createElement('button');
+    const removeBtn = document.createElement('button'); 
     removeBtn.textContent = 'Remove';
 
-    bookCard.append(pTitle, pAuthor, removeBtn);
+   
+    bookCard.append(pTitle, removeBtn);
     this.booksContainer.appendChild(bookCard);
 
     removeBtn.addEventListener('click', () => {
