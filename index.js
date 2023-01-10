@@ -40,11 +40,9 @@ class ShowBooks extends Book {
     const pTitle = document.createElement('p');
     pTitle.textContent = `"${book.title}" by ${book.author}`;
 
-
-    const removeBtn = document.createElement('button'); 
+    const removeBtn = document.createElement('button');
     removeBtn.textContent = 'Remove';
 
-   
     bookCard.append(pTitle, removeBtn);
     this.booksContainer.appendChild(bookCard);
 
