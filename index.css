@@ -1,4 +1,56 @@
-#form-books {
-  padding: 0;
-  margin: auto;
+@media (min-width: 375px) {
+  .page-title,
+  .page-subtitle,
+  #books {
+    text-align: center;
+  }
+
+  #books-added {
+    width: 100%;
+    border: 2px solid #000;
+    margin: auto;
+  }
+
+  #form-books {
+    padding: 0;
+    margin: auto;
+  }
+
+  .book-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+  }
+
+  #books {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 0.5rem;
+    width: 60%;
+  }
+
+  #books input {
+    width: 100%;
+  }
+
+  #books button {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  #books-added,
+  #form-books {
+    width: 80%;
+  }
+
+  .book-card {
+    margin: 1rem 2rem;
+  }
+
+  #books input {
+    margin: 1rem auto;
+  }
 }
