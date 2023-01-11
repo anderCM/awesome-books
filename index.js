@@ -42,6 +42,7 @@ class ShowBooks extends Book {
 
     const removeBtn = document.createElement('button');
     removeBtn.textContent = 'Remove';
+    removeBtn.classList.add('btn', 'btn-outline-danger');
 
     bookCard.append(pTitle, removeBtn);
     this.booksContainer.appendChild(bookCard);
@@ -78,3 +79,6 @@ bookForm.addEventListener('submit', (e) => {
 
 const toDisplay = new ShowBooks();
 toDisplay.iterateBooks();
+
+const currentData = new Date();
+document.getElementById('current-time').innerHTML = currentData;

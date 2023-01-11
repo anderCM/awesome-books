@@ -38,6 +38,10 @@
   #books button {
     float: right;
   }
+
+  #contact-section {
+    margin-bottom: 8rem !important;
+  }
 }
 
 @media (min-width: 768px) {
