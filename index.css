@@ -4,20 +4,19 @@
   #books {
     text-align: center;
   }
-  
+
   #books-added {
     width: 100%;
-     margin: 5rem auto auto auto;
+    margin: 5rem auto auto auto;
   }
 
-  #books-container{
+  #books-container {
     border: 2px solid #000;
   }
 
   #form-books {
     padding: 0;
     margin: auto;
-
     margin-top: 200px !important;
     flex-direction: column;
   }
@@ -53,7 +52,6 @@
 }
 
 @media (min-width: 768px) {
-
   #books-added {
     width: 80%;
   }
@@ -64,7 +62,7 @@
     flex-direction: column;
   }
 
-  #contact-section{
+  #contact-section {
     margin-top: 200px !important;
   }
 
