@@ -13,15 +13,15 @@
   #books-container{
     border: 2px solid #000;
   }
-/*******************/
+
   #form-books {
     padding: 0;
     margin: auto;
-    /*JUGOSLAV'S CODE**/
+
     margin-top: 200px !important;
     flex-direction: column;
   }
-/*******************/
+
   .book-card {
     display: flex;
     flex-direction: row;
@@ -46,7 +46,6 @@
   }
 
   #contact-section {
-     /*JUGOSLAV'S CODE**/
     margin: auto;
     margin-top: 200px !important;
     margin-bottom: 8rem !important;
@@ -54,20 +53,18 @@
 }
 
 @media (min-width: 768px) {
-/*JUGOSLAV'S CODE**/
+
   #books-added {
     width: 80%;
-    /*JUGOSLAV'S CODE**/
   }
-  /*JUGOSLAV'S CODE**/
+
   #form-books {
     width: 80%;
-    /*JUGOSLAV'S CODE**/
     margin-top: 200px !important;
     flex-direction: column;
   }
+
   #contact-section{
-    /*JUGOSLAV'S CODE**/
     margin-top: 200px !important;
   }
 
