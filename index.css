@@ -7,13 +7,18 @@
 
   #books-added {
     width: 100%;
+    margin: 5rem auto auto auto;
+  }
+
+  #books-container {
     border: 2px solid #000;
-    margin: auto;
   }
 
   #form-books {
     padding: 0;
     margin: auto;
+    margin-top: 200px !important;
+    flex-direction: column;
   }
 
   .book-card {
@@ -38,12 +43,27 @@
   #books button {
     float: right;
   }
+
+  #contact-section {
+    margin: auto;
+    margin-top: 200px !important;
+    margin-bottom: 8rem !important;
+  }
 }
 
 @media (min-width: 768px) {
-  #books-added,
+  #books-added {
+    width: 80%;
+  }
+
   #form-books {
     width: 80%;
+    margin-top: 200px !important;
+    flex-direction: column;
+  }
+
+  #contact-section {
+    margin-top: 200px !important;
   }
 
   .book-card {
