@@ -83,7 +83,7 @@ toDisplay.iterateBooks();
 const currentData = new Date();
 document.getElementById('current-time').innerHTML = currentData;
 
-/********* JUGOSLAV'S CODE ************************************/
+/** ******* JUGOSLAV'S CODE *********************************** */
 const listLink = document.getElementById('listLink');
 const addBookLink = document.getElementById('addBookLink');
 const contactLink = document.getElementById('contactLink');
@@ -91,7 +91,6 @@ const contactLink = document.getElementById('contactLink');
 const contactSection = document.getElementById('contact-section');
 const addBookSection = document.getElementById('form-books');
 const booksSection = document.getElementById('books-added');
-
 
 function listHandler(event) {
   event.preventDefault();
@@ -126,3 +125,6 @@ function contactHandler(event) {
 listLink.addEventListener('click', listHandler);
 addBookLink.addEventListener('click', addBookHandler);
 contactLink.addEventListener('click', contactHandler);
+
+contactSection.style.display = 'none';
+addBookSection.style.display = 'none';

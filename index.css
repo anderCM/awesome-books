@@ -1,17 +1,3 @@
-
-/*JUGOSLAV'S CODE**/
-#books-container{
-  border: 2px solid #000;
-}
-
-@media (max-width: 768px) {
-   
-.navbar-nav{
-  margin-top:40px !important;
-}
-}
-/*****************************/
-
 @media (min-width: 375px) {
   .page-title,
   .page-subtitle,
@@ -21,10 +7,11 @@
   
   #books-added {
     width: 100%;
-    /*D: border: 2px solid #000;*/
-     margin: auto;
-    /*JUGOSLAV'S CODE**/
-    margin-top: 200px !important;
+     margin: 5rem auto auto auto;
+  }
+
+  #books-container{
+    border: 2px solid #000;
   }
 /*******************/
   #form-books {
@@ -62,25 +49,15 @@
      /*JUGOSLAV'S CODE**/
     margin: auto;
     margin-top: 200px !important;
-    /*********************************************/
     margin-bottom: 8rem !important;
   }
 }
 
 @media (min-width: 768px) {
-  /* D: #books-added,
-  #form-books {
-    width: 80%;
-    /*JUGOSLAV'S CODE**
-    margin-top: 200px !important;
-  }*/
-
 /*JUGOSLAV'S CODE**/
-  #books-added
-   {
+  #books-added {
     width: 80%;
     /*JUGOSLAV'S CODE**/
-    margin-top: 200px !important;
   }
   /*JUGOSLAV'S CODE**/
   #form-books {
@@ -101,6 +78,4 @@
   #books input {
     margin: 1rem auto;
   }
-
-
 }
