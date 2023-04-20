@@ -1,23 +1,3 @@
-/* eslint-disable no-continue */
-/* eslint-disable no-unused-vars */
-/* eslint-disable class-methods-use-this */
-/* eslint-disable brace-style */
-/* eslint-disable no-loop-func */
-/* eslint-disable prefer-const */
-/* eslint-disable no-useless-escape */
-/* eslint-disable no-plusplus */
-/* eslint-disable no-restricted-globals */
-/* eslint-disable guard-for-in */
-/* eslint-disable no-use-before-define */
-/* eslint-disable prefer-rest-params */
-/* eslint-disable no-restricted-syntax */
-/* eslint-disable no-underscore-dangle */
-/* eslint-disable default-case */
-/* eslint-disable no-nested-ternary */
-/* eslint-disable max-classes-per-file */
-/* eslint-disable max-len */
-// these aren't really private, but nor are they really useful to document
-
 /**
  * @private
  */
